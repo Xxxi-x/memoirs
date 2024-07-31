@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泥嚎</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    
+        li {
+            list-style: none;
+        }
+        .bg {           
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+        }
+        .bg a {
+            display: inline-block;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            line-height: 100px;
+            padding: 0 40px;
+            text-decoration: none;
+            font-family: '黑体';
+            font-weight: 600;
+        }
+        .bg a:hover {
+            color: pink;
+            background-color: #a3e7f2 ;
+        }
+        
+        .mok1 {
+            height: 450px;
+            width: 1500px;
+            background-color: rgb(255, 255, 255);
+            margin: 50px auto;           
+        }
+        .mok1 li{
+            /* 给盒子设置 宽高度 浮动左对齐 颜色 盒子之间距离20像素 */
+            width: 360px;
+            height: 450px;
+            background-color:pink;
+            float: left;
+            margin-left: 105px;
+            border-radius: 20%;
+        }
+        .mok1 li a {
+            /* 给盒子的文字添加样式 */
+            font-size: 40px;
+            font-weight: 600;
+            display: grid;
+            place-items: center;
+            /* justify-content: center; */
+            /* text-align: center; */
+            line-height: 450px;
+            color: #d2eaf6;
+        }
+
+        .mok1 li {
+            /* 给盒子添加阴影 */
+            box-shadow: 3px 10px 20px 6px rgba(0, 0, 0,.3);
+        }
+        .mok1 li:hover {
+            /* 光标经过添加阴影 */
+            box-shadow: 10px 10px 10px 10px rgba(109, 107, 59, 0.3);
+            transform: scale(1.05); /* 放大效果 */
+        }
+        .mok2 {
+            height: 53px;
+            background-color: #fffbeb;
+        }
+        .mok2 p {
+            text-align: center;
+            line-height: 53px;
+            color: rgb(250, 215, 223);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="bg">
+        <a href="主页1.html" target="_blank">HOMEPAGE</a>
+        <a href="memoirs.html" target="_blank">MEMOIRS</a>
+        <a href="about us.html" target="_blank">About us</a>
+        <a href="to you.html" target="_blank">To You</a>
+        <audio src="https://m801.music.126.net/20240730102552/c971d52fc7e8819cc39112e8cebac6f3/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481832627/61d2/1035/e460/9c563e1f910734d0c19bbc3bb193b596.mp3" controls autoplay loop></audio>
+    </div>
+
+    <div class="mok1">
+        
+        <ul>
+            <li><a href="memoirs.html" target="_blank">MEMOIRS</a></li>
+            <li><a href="about us.html" target="_blank">About us</a></li>
+            <li><a href="to you.html" target="_blank">To You</a></li>
+        </ul>
+    </div>
+    
+    <div class="mok2">
+        
+        <p>lover You</p>
+              
+    </div>
+     
+</body>
+</html>
